@@ -23,11 +23,11 @@ Gem::Specification.new do |s|
   s.summary = "Capybara driver for zombie in node.js"
 
   s.add_runtime_dependency("capybara", "~> 2.1.0")
-  s.add_runtime_dependency("multi_json", "~> 0.0.5")
+  s.add_runtime_dependency("multi_json", "~> 1.8.2")
   s.add_runtime_dependency("childprocess", "~> 0.1.7")
 
-  s.add_development_dependency("bundler", "~> 1.0")
-  s.add_development_dependency("rspec", "~> 2.0")
-  s.add_development_dependency("sinatra", "~> 1.0")
-  s.add_development_dependency("yajl-ruby", "~> 0.7.8")
+  s.add_development_dependency("bundler")
+  s.add_development_dependency("rspec")
+  s.add_development_dependency("sinatra")
+  s.add_development_dependency("yajl-ruby")
 end
